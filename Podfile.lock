@@ -1,0 +1,16 @@
+PODS:
+  - MOBreakingBadAPI (0.1.0)
+
+DEPENDENCIES:
+  - MOBreakingBadAPI
+
+SPEC REPOS:
+  trunk:
+    - MOBreakingBadAPI
+
+SPEC CHECKSUMS:
+  MOBreakingBadAPI: 80b8b6eb9ea17d67c6b75279510e06c566c602fa
+
+PODFILE CHECKSUM: dedb8c3f236cd4504632de93c8a5af37003cb226
+
+COCOAPODS: 1.8.4

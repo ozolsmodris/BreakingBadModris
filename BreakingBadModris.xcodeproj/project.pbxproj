@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		81A1BBA623CE51820018254F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A1BBA523CE51820018254F /* Assets.xcassets */; };
 		81A1BBA923CE51820018254F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A1BBA723CE51820018254F /* LaunchScreen.storyboard */; };
 		81A1BBB223CE52320018254F /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1BBB123CE52320018254F /* CharacterList.swift */; };
+		81E7138723D0B574009BF8C9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 81E7138623D0B574009BF8C9 /* Podfile */; };
+		81E7138B23D0EE6B009BF8C9 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E7138A23D0EE6B009BF8C9 /* QuoteViewController.swift */; };
 		F52A5936A49D66D14D734ACA /* Pods_BreakingBadModris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854247222477F56A32D5CA4C /* Pods_BreakingBadModris.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		81A1BBA823CE51820018254F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A1BBAA23CE51820018254F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81A1BBB123CE52320018254F /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		81E7138623D0B574009BF8C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		81E7138A23D0EE6B009BF8C9 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
 		854247222477F56A32D5CA4C /* Pods_BreakingBadModris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakingBadModris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B0FD14487CDBB1111E4D97 /* Pods-BreakingBadModris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadModris.release.xcconfig"; path = "Target Support Files/Pods-BreakingBadModris/Pods-BreakingBadModris.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +51,7 @@
 		81A1BB8D23CE51800018254F = {
 			isa = PBXGroup;
 			children = (
+				81E7138623D0B574009BF8C9 /* Podfile */,
 				81A1BB9823CE51800018254F /* BreakingBadModris */,
 				81A1BB9723CE51800018254F /* Products */,
 				B54977B04ED2255B08EFA2CF /* Pods */,
@@ -81,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				81A1BBB123CE52320018254F /* CharacterList.swift */,
+				81E7138A23D0EE6B009BF8C9 /* QuoteViewController.swift */,
 			);
 			path = VCS;
 			sourceTree = "<group>";
@@ -99,7 +105,6 @@
 				7FEDF2596CA9E757152F7A7D /* Pods-BreakingBadModris.debug.xcconfig */,
 				96B0FD14487CDBB1111E4D97 /* Pods-BreakingBadModris.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -165,6 +170,7 @@
 			files = (
 				81A1BBA923CE51820018254F /* LaunchScreen.storyboard in Resources */,
 				81A1BBA623CE51820018254F /* Assets.xcassets in Resources */,
+				81E7138723D0B574009BF8C9 /* Podfile in Resources */,
 				81A1BBA123CE51800018254F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E7138B23D0EE6B009BF8C9 /* QuoteViewController.swift in Sources */,
 				81A1BB9A23CE51800018254F /* AppDelegate.swift in Sources */,
 				81A1BBA423CE51800018254F /* BreakingBadModris.xcdatamodeld in Sources */,
 				81A1BB9C23CE51800018254F /* SceneDelegate.swift in Sources */,

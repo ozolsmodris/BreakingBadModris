@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		81A1BB9A23CE51800018254F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1BB9923CE51800018254F /* AppDelegate.swift */; };
 		81A1BB9C23CE51800018254F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1BB9B23CE51800018254F /* SceneDelegate.swift */; };
-		81A1BB9E23CE51800018254F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1BB9D23CE51800018254F /* ViewController.swift */; };
 		81A1BBA123CE51800018254F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A1BB9F23CE51800018254F /* Main.storyboard */; };
 		81A1BBA423CE51800018254F /* BreakingBadModris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81A1BBA223CE51800018254F /* BreakingBadModris.xcdatamodeld */; };
 		81A1BBA623CE51820018254F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A1BBA523CE51820018254F /* Assets.xcassets */; };
 		81A1BBA923CE51820018254F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A1BBA723CE51820018254F /* LaunchScreen.storyboard */; };
+		81A1BBB223CE52320018254F /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1BBB123CE52320018254F /* CharacterList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81A1BB9623CE51800018254F /* BreakingBadModris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBadModris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A1BB9923CE51800018254F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81A1BB9B23CE51800018254F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81A1BB9D23CE51800018254F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81A1BBA023CE51800018254F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81A1BBA323CE51800018254F /* BreakingBadModris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BreakingBadModris.xcdatamodel; sourceTree = "<group>"; };
 		81A1BBA523CE51820018254F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A1BBA823CE51820018254F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A1BBAA23CE51820018254F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A1BBB123CE52320018254F /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		81A1BB9823CE51800018254F /* BreakingBadModris */ = {
 			isa = PBXGroup;
 			children = (
+				81A1BBB023CE52010018254F /* VCS */,
 				81A1BB9923CE51800018254F /* AppDelegate.swift */,
 				81A1BB9B23CE51800018254F /* SceneDelegate.swift */,
-				81A1BB9D23CE51800018254F /* ViewController.swift */,
 				81A1BB9F23CE51800018254F /* Main.storyboard */,
 				81A1BBA523CE51820018254F /* Assets.xcassets */,
 				81A1BBA723CE51820018254F /* LaunchScreen.storyboard */,
@@ -68,6 +68,14 @@
 				81A1BBA223CE51800018254F /* BreakingBadModris.xcdatamodeld */,
 			);
 			path = BreakingBadModris;
+			sourceTree = "<group>";
+		};
+		81A1BBB023CE52010018254F /* VCS */ = {
+			isa = PBXGroup;
+			children = (
+				81A1BBB123CE52320018254F /* CharacterList.swift */,
+			);
+			path = VCS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A1BB9E23CE51800018254F /* ViewController.swift in Sources */,
 				81A1BB9A23CE51800018254F /* AppDelegate.swift in Sources */,
 				81A1BBA423CE51800018254F /* BreakingBadModris.xcdatamodeld in Sources */,
 				81A1BB9C23CE51800018254F /* SceneDelegate.swift in Sources */,
+				81A1BBB223CE52320018254F /* CharacterList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,8 +16,37 @@
 		81A1BBB223CE52320018254F /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1BBB123CE52320018254F /* CharacterList.swift */; };
 		81E7138723D0B574009BF8C9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 81E7138623D0B574009BF8C9 /* Podfile */; };
 		81E7138B23D0EE6B009BF8C9 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E7138A23D0EE6B009BF8C9 /* QuoteViewController.swift */; };
+		81E713A723D10983009BF8C9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E713A623D10983009BF8C9 /* NotificationCenter.framework */; };
+		81E713AA23D10983009BF8C9 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E713A923D10983009BF8C9 /* TodayViewController.swift */; };
+		81E713AD23D10983009BF8C9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E713AB23D10983009BF8C9 /* MainInterface.storyboard */; };
+		81E713B123D10983009BF8C9 /* BrakingBadWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 81E713A523D10983009BF8C9 /* BrakingBadWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B032340F82BF5AB425C0895C /* Pods_BrakingBadWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DD65E67A0887C405BC6A0A /* Pods_BrakingBadWidget.framework */; };
 		F52A5936A49D66D14D734ACA /* Pods_BreakingBadModris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854247222477F56A32D5CA4C /* Pods_BreakingBadModris.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81E713AF23D10983009BF8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A1BB8E23CE51800018254F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E713A423D10983009BF8C9;
+			remoteInfo = BrakingBadWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81E713B223D10983009BF8C9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				81E713B123D10983009BF8C9 /* BrakingBadWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7FEDF2596CA9E757152F7A7D /* Pods-BreakingBadModris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadModris.debug.xcconfig"; path = "Target Support Files/Pods-BreakingBadModris/Pods-BreakingBadModris.debug.xcconfig"; sourceTree = "<group>"; };
@@ -32,8 +61,16 @@
 		81A1BBB123CE52320018254F /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
 		81E7138623D0B574009BF8C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		81E7138A23D0EE6B009BF8C9 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		81E713A523D10983009BF8C9 /* BrakingBadWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BrakingBadWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E713A623D10983009BF8C9 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		81E713A923D10983009BF8C9 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		81E713AC23D10983009BF8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		81E713AE23D10983009BF8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		854247222477F56A32D5CA4C /* Pods_BreakingBadModris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakingBadModris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B0FD14487CDBB1111E4D97 /* Pods-BreakingBadModris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadModris.release.xcconfig"; path = "Target Support Files/Pods-BreakingBadModris/Pods-BreakingBadModris.release.xcconfig"; sourceTree = "<group>"; };
+		B8E25672516ABE0711B5D06A /* Pods-BrakingBadWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrakingBadWidget.debug.xcconfig"; path = "Target Support Files/Pods-BrakingBadWidget/Pods-BrakingBadWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF476B99EE4A4AB39F63BC9 /* Pods-BrakingBadWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrakingBadWidget.release.xcconfig"; path = "Target Support Files/Pods-BrakingBadWidget/Pods-BrakingBadWidget.release.xcconfig"; sourceTree = "<group>"; };
+		E7DD65E67A0887C405BC6A0A /* Pods_BrakingBadWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrakingBadWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +82,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E713A223D10983009BF8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E713A723D10983009BF8C9 /* NotificationCenter.framework in Frameworks */,
+				B032340F82BF5AB425C0895C /* Pods_BrakingBadWidget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +99,7 @@
 			children = (
 				81E7138623D0B574009BF8C9 /* Podfile */,
 				81A1BB9823CE51800018254F /* BreakingBadModris */,
+				81E713A823D10983009BF8C9 /* BrakingBadWidget */,
 				81A1BB9723CE51800018254F /* Products */,
 				B54977B04ED2255B08EFA2CF /* Pods */,
 				949E297B1D30D36C3692590A /* Frameworks */,
@@ -63,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				81A1BB9623CE51800018254F /* BreakingBadModris.app */,
+				81E713A523D10983009BF8C9 /* BrakingBadWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,10 +139,22 @@
 			path = VCS;
 			sourceTree = "<group>";
 		};
+		81E713A823D10983009BF8C9 /* BrakingBadWidget */ = {
+			isa = PBXGroup;
+			children = (
+				81E713A923D10983009BF8C9 /* TodayViewController.swift */,
+				81E713AB23D10983009BF8C9 /* MainInterface.storyboard */,
+				81E713AE23D10983009BF8C9 /* Info.plist */,
+			);
+			path = BrakingBadWidget;
+			sourceTree = "<group>";
+		};
 		949E297B1D30D36C3692590A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				854247222477F56A32D5CA4C /* Pods_BreakingBadModris.framework */,
+				81E713A623D10983009BF8C9 /* NotificationCenter.framework */,
+				E7DD65E67A0887C405BC6A0A /* Pods_BrakingBadWidget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +164,8 @@
 			children = (
 				7FEDF2596CA9E757152F7A7D /* Pods-BreakingBadModris.debug.xcconfig */,
 				96B0FD14487CDBB1111E4D97 /* Pods-BreakingBadModris.release.xcconfig */,
+				B8E25672516ABE0711B5D06A /* Pods-BrakingBadWidget.debug.xcconfig */,
+				BDF476B99EE4A4AB39F63BC9 /* Pods-BrakingBadWidget.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -120,15 +182,35 @@
 				81A1BB9323CE51800018254F /* Frameworks */,
 				81A1BB9423CE51800018254F /* Resources */,
 				8C23B370E517954029EF959A /* [CP] Embed Pods Frameworks */,
+				81E713B223D10983009BF8C9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				81E713B023D10983009BF8C9 /* PBXTargetDependency */,
 			);
 			name = BreakingBadModris;
 			productName = BreakingBadModris;
 			productReference = 81A1BB9623CE51800018254F /* BreakingBadModris.app */;
 			productType = "com.apple.product-type.application";
+		};
+		81E713A423D10983009BF8C9 /* BrakingBadWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E713B523D10983009BF8C9 /* Build configuration list for PBXNativeTarget "BrakingBadWidget" */;
+			buildPhases = (
+				476D8593A2FD710D5FFAB53E /* [CP] Check Pods Manifest.lock */,
+				81E713A123D10983009BF8C9 /* Sources */,
+				81E713A223D10983009BF8C9 /* Frameworks */,
+				81E713A323D10983009BF8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrakingBadWidget;
+			productName = BrakingBadWidget;
+			productReference = 81E713A523D10983009BF8C9 /* BrakingBadWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -141,6 +223,9 @@
 				ORGANIZATIONNAME = "Modris Ozols";
 				TargetAttributes = {
 					81A1BB9523CE51800018254F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					81E713A423D10983009BF8C9 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -159,6 +244,7 @@
 			projectRoot = "";
 			targets = (
 				81A1BB9523CE51800018254F /* BreakingBadModris */,
+				81E713A423D10983009BF8C9 /* BrakingBadWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -175,9 +261,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E713A323D10983009BF8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E713AD23D10983009BF8C9 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		476D8593A2FD710D5FFAB53E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrakingBadWidget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8C23B370E517954029EF959A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,7 +348,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E713A123D10983009BF8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E713AA23D10983009BF8C9 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81E713B023D10983009BF8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E713A423D10983009BF8C9 /* BrakingBadWidget */;
+			targetProxy = 81E713AF23D10983009BF8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		81A1BB9F23CE51800018254F /* Main.storyboard */ = {
@@ -251,12 +383,21 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		81E713AB23D10983009BF8C9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E713AC23D10983009BF8C9 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		81A1BBAB23CE51820018254F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -317,6 +458,7 @@
 		81A1BBAC23CE51820018254F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -372,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7FEDF2596CA9E757152F7A7D /* Pods-BreakingBadModris.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9TBJ5WHDG;
@@ -391,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96B0FD14487CDBB1111E4D97 /* Pods-BreakingBadModris.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9TBJ5WHDG;
@@ -403,6 +547,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81E713B323D10983009BF8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E25672516ABE0711B5D06A /* Pods-BrakingBadWidget.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9TBJ5WHDG;
+				INFOPLIST_FILE = BrakingBadWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modris.ozols.BreakingBadModris.BrakingBadWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		81E713B423D10983009BF8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF476B99EE4A4AB39F63BC9 /* Pods-BrakingBadWidget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9TBJ5WHDG;
+				INFOPLIST_FILE = BrakingBadWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modris.ozols.BreakingBadModris.BrakingBadWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -423,6 +609,15 @@
 			buildConfigurations = (
 				81A1BBAE23CE51820018254F /* Debug */,
 				81A1BBAF23CE51820018254F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E713B523D10983009BF8C9 /* Build configuration list for PBXNativeTarget "BrakingBadWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E713B323D10983009BF8C9 /* Debug */,
+				81E713B423D10983009BF8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

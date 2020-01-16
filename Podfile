@@ -5,6 +5,10 @@ target 'BreakingBadModris' do
 
   pod 'MOBreakingBadAPI'
 
+  target 'BrakingBadWidget' do
+      inherit! :search_paths
+  end
+  
 end
 
 workspace 'MOBreakingBadAPI'

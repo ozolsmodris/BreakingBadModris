@@ -27,7 +27,8 @@ class BreakingBadModrisUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
-        app.navigationBars["Braking Bad"].buttons["Random Quote"].tap()
+        app.navigationBars["Braking Bad"]/*@START_MENU_TOKEN@*/.buttons["randomQueueButton"]/*[[".buttons[\"Random Quote\"]",".buttons[\"randomQueueButton\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+    
         self.waitForElementToAppear(element: app.staticTexts["authorLabel"], timeout: 10)
         XCTAssertTrue(app.staticTexts["authorLabel"].exists)
         XCTAssertTrue(app/*@START_MENU_TOKEN@*/.staticTexts["quoteLabel"]/*[[".staticTexts[\"Ooooooh, wire.\"]",".staticTexts[\"quoteLabel\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.exists)
@@ -48,9 +49,6 @@ class BreakingBadModrisUITests: XCTestCase {
         XCTAssertTrue(app/*@START_MENU_TOKEN@*/.staticTexts["quoteLabel"]/*[[".staticTexts[\"Ooooooh, wire.\"]",".staticTexts[\"quoteLabel\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.exists)
         XCTAssertTrue(app.navigationBars["Quotes"].buttons["Braking Bad"].exists)
         XCTAssertTrue(app.navigationBars["Quotes"].buttons["shareButton"].isHittable)
-    
-        //
-
     }
     
     func testCharacterQuoteNotExists(){

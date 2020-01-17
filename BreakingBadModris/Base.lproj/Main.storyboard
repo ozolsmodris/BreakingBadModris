@@ -35,6 +35,9 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Braking Bad" id="u71-WC-W1D">
                         <barButtonItem key="rightBarButtonItem" title="Random Quote" id="kxn-Yo-3Wj">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="randomQueueButton"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <segue destination="kBg-Da-ENl" kind="show" identifier="toRandomQuote" id="9eG-Vh-SFj"/>
                             </connections>
@@ -48,13 +51,6 @@
                         </connections>
                     </refreshControl>
                 </tableViewController>
-                <navigationItem title="Braking Bad" id="xmg-Uw-UDs">
-                    <barButtonItem key="rightBarButtonItem" title="Random Quote" id="uJS-GX-mmu">
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="randomQueueButton"/>
-                        </userDefinedRuntimeAttributes>
-                    </barButtonItem>
-                </navigationItem>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WrS-Wx-N0m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3276.811594202899" y="57.589285714285708"/>

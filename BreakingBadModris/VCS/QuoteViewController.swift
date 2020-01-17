@@ -27,7 +27,7 @@ class QuoteViewController: UIViewController {
     }
     
     @IBAction func shareQuote(_ sender: UIBarButtonItem) {
-        if let quote = quoteLabel.text, let author = quoteLabel.text {
+        if let quote = quoteLabel.text, let author = authorLabel.text {
             let text = "\"\(quote)\" // \(author),"
 
             // set up activity view controller

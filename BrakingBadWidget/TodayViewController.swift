@@ -25,6 +25,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     override func viewWillAppear(_ animated: Bool) {
         hideLabels()
         self.quote.numberOfLines = 3
+        self.quote.lineBreakMode = NSLineBreakMode.byWordWrapping
+        self.quote.sizeToFit()
         self.activityIndicator.center = self.view.center
         self.activityIndicator.hidesWhenStopped = true
         view.addSubview(activityIndicator)

@@ -126,18 +126,37 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Uw3-KY-kOT" kind="relationship" relationship="rootViewController" id="GH2-Zg-tmq"/>
+                        <segue destination="MQK-rm-pXi" kind="relationship" relationship="rootViewController" id="0GB-8z-P8Q"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dh9-sL-qru" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2366.666666666667" y="57.589285714285708"/>
+            <point key="canvasLocation" x="1339" y="58"/>
+        </scene>
+        <!--Initial View Controller-->
+        <scene sceneID="2Wj-Ef-Vtw">
+            <objects>
+                <viewController id="MQK-rm-pXi" customClass="InitialViewController" customModule="BreakingBadModris" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uhh-4s-s5W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PUb-ud-W69"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="94Q-6k-mD6"/>
+                    <connections>
+                        <segue destination="Uw3-KY-kOT" kind="show" identifier="toCharacterList" id="7w4-6L-xlr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VqU-eX-OF6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2313" y="58"/>
         </scene>
     </scenes>
     <resources>
         <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Lgl-Jm-42l"/>
+        <segue reference="9eG-Vh-SFj"/>
     </inferredMetricsTieBreakers>
 </document>

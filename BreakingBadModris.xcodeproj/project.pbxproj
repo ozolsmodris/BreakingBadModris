@@ -21,6 +21,7 @@
 		81E713AD23D10983009BF8C9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E713AB23D10983009BF8C9 /* MainInterface.storyboard */; };
 		81E713B123D10983009BF8C9 /* BrakingBadWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 81E713A523D10983009BF8C9 /* BrakingBadWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		81E713BD23D115C6009BF8C9 /* BreakingBadModrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E713BC23D115C6009BF8C9 /* BreakingBadModrisUITests.swift */; };
+		81E713C923D1AE92009BF8C9 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E713C823D1AE92009BF8C9 /* InitialViewController.swift */; };
 		B032340F82BF5AB425C0895C /* Pods_BrakingBadWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DD65E67A0887C405BC6A0A /* Pods_BrakingBadWidget.framework */; };
 		F52A5936A49D66D14D734ACA /* Pods_BreakingBadModris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854247222477F56A32D5CA4C /* Pods_BreakingBadModris.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		81E713BA23D115C6009BF8C9 /* BreakingBadModrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingBadModrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E713BC23D115C6009BF8C9 /* BreakingBadModrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadModrisUITests.swift; sourceTree = "<group>"; };
 		81E713BE23D115C6009BF8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E713C823D1AE92009BF8C9 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		854247222477F56A32D5CA4C /* Pods_BreakingBadModris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakingBadModris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B0FD14487CDBB1111E4D97 /* Pods-BreakingBadModris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadModris.release.xcconfig"; path = "Target Support Files/Pods-BreakingBadModris/Pods-BreakingBadModris.release.xcconfig"; sourceTree = "<group>"; };
 		B8E25672516ABE0711B5D06A /* Pods-BrakingBadWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrakingBadWidget.debug.xcconfig"; path = "Target Support Files/Pods-BrakingBadWidget/Pods-BrakingBadWidget.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				81A1BBB123CE52320018254F /* CharacterList.swift */,
 				81E7138A23D0EE6B009BF8C9 /* QuoteViewController.swift */,
+				81E713C823D1AE92009BF8C9 /* InitialViewController.swift */,
 			);
 			path = VCS;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				81E7138B23D0EE6B009BF8C9 /* QuoteViewController.swift in Sources */,
 				81A1BB9A23CE51800018254F /* AppDelegate.swift in Sources */,
 				81A1BBA423CE51800018254F /* BreakingBadModris.xcdatamodeld in Sources */,
+				81E713C923D1AE92009BF8C9 /* InitialViewController.swift in Sources */,
 				81A1BB9C23CE51800018254F /* SceneDelegate.swift in Sources */,
 				81A1BBB223CE52320018254F /* CharacterList.swift in Sources */,
 			);

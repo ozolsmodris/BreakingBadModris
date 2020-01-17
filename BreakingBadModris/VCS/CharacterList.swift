@@ -16,6 +16,10 @@ class CharacterList: UITableViewController {
     var apiController = MOBreakingBadAPI()
     let dispatchGroup = DispatchGroup()
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         fillTable()
@@ -43,21 +47,7 @@ class CharacterList: UITableViewController {
     }
     
     func fillTable() {
-        dispatchGroup.enter()
-        apiController.getAllCharacters { (characters) in
-            if type(of: characters) == [Character].self {
-                self.characters = characters
-                DispatchQueue.main.async {
-                    self.tableView.reloadData()
-                    self.dispatchGroup.leave()
-                }
-            }
-            else {
-                print("Character is nil!!!")
-            }
-            
-        }
-
+        self.tableView.reloadData()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

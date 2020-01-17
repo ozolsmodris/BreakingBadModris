@@ -1,5 +1,5 @@
 PODS:
-  - MOBreakingBadAPI (0.1.1)
+  - MOBreakingBadAPI (0.1.2)
 
 DEPENDENCIES:
   - MOBreakingBadAPI
@@ -9,7 +9,7 @@ SPEC REPOS:
     - MOBreakingBadAPI
 
 SPEC CHECKSUMS:
-  MOBreakingBadAPI: 365fd602cd696875d10a30dddbcf739dc4ff64a5
+  MOBreakingBadAPI: fab913604b3d5a778dad9a22db7ec4629df50a7e
 
 PODFILE CHECKSUM: 6a1313b92b615a49fe50a8c3cd4f7c254b09153a
 

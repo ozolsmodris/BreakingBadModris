@@ -49,7 +49,11 @@
                     </refreshControl>
                 </tableViewController>
                 <navigationItem title="Braking Bad" id="xmg-Uw-UDs">
-                    <barButtonItem key="rightBarButtonItem" title="Random Quote" id="uJS-GX-mmu"/>
+                    <barButtonItem key="rightBarButtonItem" title="Random Quote" id="uJS-GX-mmu">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="randomQueueButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </barButtonItem>
                 </navigationItem>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WrS-Wx-N0m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,15 +69,22 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyt-bH-YKF">
                                 <rect key="frame" x="12" y="308" width="390" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration" identifier="authorLabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="authorLabel"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKQ-VZ-v7G">
                                 <rect key="frame" x="12" y="288" width="390" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="quoteLabel"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -90,6 +101,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Quotes" id="xOg-c6-INp">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.arrow.up" catalog="system" width="70" id="Kdl-yJ-GML">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="shareButton"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="shareQuote:" destination="kBg-Da-ENl" id="OI3-Xc-ZKL"/>
                             </connections>
